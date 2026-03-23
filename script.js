@@ -113,8 +113,43 @@
 // })
 
 //Criando elementos na página-------------------------------------------------------------------------------------------------------------
-const novoElemento = document.createElement("p"); // Cria o elemento
-novoElemento.innerText = "Elemento novo criado"
+// const novoElemento = document.createElement("p"); // Cria o elemento
+// novoElemento.innerText = "Elemento novo criado"
 
-const form = document.getElementById("form");
-document.form.appendChild(novoElemento)
+// const form = document.getElementById("form");
+// form.appendChild(novoElemento)
+
+// const botao = document.createElement("button")
+// botao.innerText = "Excluir elemento"
+// form.appendChild(botao)
+
+// botao.addEventListener("click", (e) => {
+//     e.preventDefault();
+//     novoElemento.remove()
+// })
+
+//adicionando elementos em uma lista apartir de um input --------------------------------------------------------------------------------------------------------
+// const input = document.getElementById("input");
+// const botao = document.getElementById("add");
+// const lista = document.getElementById("lista") 
+
+// botao.addEventListener("click", () => {
+//     const valor = input.value; //Pega o valo digitado na caixinha
+
+//     const li = document.createElement("li");
+//     li.innerText = valor;
+
+//     lista.appendChild(li)
+
+//     input.value = "";
+    
+// })
+
+// const botaoExcluir = document.createElement("botaoExcluir");
+// botaoExcluir.innerText = "Excluir Elemento"
+// FormData.appendChild(botaoExcluir)
+
+// botao.addEventListener("click", (e) => {
+//     e.preventDefault();
+//     novoElemento.remove()
+// })
